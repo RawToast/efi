@@ -1,8 +1,8 @@
 # EFI
 
-My personal OpenCore EFI configuration. Using [https://github.com/acidanthera/OpenCorePkg](Opencore 0.5.7)
+My personal OpenCore EFI configuration. Using [Opencore 0.5.7](https://github.com/acidanthera/OpenCorePkg)
 
-Based on examples at [https://www.technolli.com](Technolli) and tweaked based on various examples on hackintosh forums.
+Based on examples by [Technolli](https://www.technolli.com) and tweaked based on various examples on hackintosh forums.
 
 ## Current System
 
@@ -20,11 +20,12 @@ I haven't tested everything yet... like sleep, etc.
 - [x] HDMI Sound
 - [x] Ethernet
 - [x] Apple Services
-- [ ] Bluetooth seems patchy
-- [ ] Wifi (expected, this chipset is not supported. Not a concern right now)
+- [ ] Bluetooth - connects, but seems patchy. AirPods dropping, etc
+- [ ] Wifi (Expected, this chipset is not supported. Not a concern right now)
 
 ## BIOS Tweaks
 
 * Set to optimizsed defaults
-
 * Disable CSM
+
+Note that these files have my serials removed, so you will have to update them.
