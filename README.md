@@ -1,8 +1,8 @@
 # EFI
 
-My personal OpenCore EFI configuration. Using [Opencore 0.5.7](https://github.com/acidanthera/OpenCorePkg)
+My personal OpenCore EFI configuration. Using [Opencore 0.5.9](https://github.com/acidanthera/OpenCorePkg)
 
-Based on examples by [Technolli](https://www.technolli.com) and tweaked based on various examples on hackintosh forums.
+Based on examples by [Technolli](https://www.technolli.com) and tweaked based on various examples on hackintosh forums. It seems the ITX X570 motherboards are very similar, so you might be able to just use these files with only serial number changes.
 
 ## Current System
 
@@ -20,12 +20,12 @@ I haven't tested everything yet... like sleep, etc.
 - [x] HDMI Sound
 - [x] Ethernet
 - [x] Apple Services
-- [ ] Bluetooth - connects, but seems patchy. AirPods dropping, etc
+- [X] Bluetooth - fixed! Airpods, Magic Keyboard, Bluetooth networking, all work.
 - [ ] Wifi (Expected, this chipset is not supported. Not a concern right now)
 
 ## BIOS Tweaks
 
-* Set to optimizsed defaults
+* Set to optimised defaults
 * Disable CSM
 
-Note that these files have my serials removed, so you will have to update them.
+Note that these files have my serials removed, so you will have to update them. 
